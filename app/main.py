@@ -1,4 +1,4 @@
-def copy_file(command: str) -> None:  # copy_file("cp file.txt file.txt")
+def copy_file(command: str) -> None:
     spl = command.split(" ")
     if (len(spl) != 3 or spl[0] != "cp"
             or spl[1] == spl[2]):
